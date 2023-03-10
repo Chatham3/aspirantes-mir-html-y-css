@@ -1,0 +1,44 @@
+form {
+    width: 300px;
+    background: linear-gradient(#bd09b7, #6b4cf5);
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px 0px grey;
+    margin: 0 auto;
+    
+    display: flex;
+    flex-direction: column;
+
+    padding: 20px;
+
+    gap: 5px;
+
+    font-family: sans-serif;
+
+    color: white;
+}
+
+select {
+    padding: 5px;
+}
+
+button {
+    padding: 5px 15px;
+    float: right;
+    width: 100px;
+}
+
+body {
+    display: flex;
+}
+
+@media (max-width: 500px) {
+    form {
+        width: 100%;
+    }
+}
+
+@media (min-width: 500px) {
+    form {
+        width: 300px;
+    }
+}
